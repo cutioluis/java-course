@@ -2,7 +2,7 @@ package TiposPrimitivos;
 
 public class TiposPrimitivos {
    public static void main(String[] args) {
-      // Parar entero: byte = 8bits, short = 16bits, int = 32bits, long = 64bits
+      // ENTEROS: byte = 8bits, short = 16bits, int = 32bits, long = 64bits
       byte numeroByte = 54;
       System.out.println(numeroByte);
 
