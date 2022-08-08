@@ -1,4 +1,4 @@
-package VariablesFundamentos;
+package VariablesJava;
 
 import java.util.Scanner;
 

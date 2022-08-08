@@ -1,4 +1,4 @@
-package VariablesFundamentos;
+package VariablesJava;
 
 public class Concatenacion {
     public static  void main(String args[]) {

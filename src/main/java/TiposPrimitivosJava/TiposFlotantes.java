@@ -1,4 +1,4 @@
-package TiposPrimitivos;
+package TiposPrimitivosJava;
 
 public class TiposFlotantes {
    public static void main(String args[]) {

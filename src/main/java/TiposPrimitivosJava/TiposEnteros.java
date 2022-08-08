@@ -1,4 +1,4 @@
-package TiposPrimitivos;
+package TiposPrimitivosJava;
 
 public class TiposEnteros {
    public static void main(String[] args) {
