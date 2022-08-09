@@ -1,4 +1,4 @@
-package SentenciasControl;
+package SentenciasControlJava;
 
 public class SentenciaIfElse {
    public static void main(String[] args) {
