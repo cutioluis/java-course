@@ -14,5 +14,19 @@ public class OperadoresIgualdadRelacionales {
 
       // Este metodo equals compara las cadenas para ver si son diferentes
       System.out.println("Son iguales?,   Java + Java " + c.equals(d)); // true
+
+      // Operadores Relacionales: > <, >= <= <,
+      int e = 4;
+      int f = 3;
+
+      // Mira si es mayor que e y f, < verifica si es menor
+      System.out.println("e es mayor que f: " + (e > f)); // true
+
+
+      // Verifica si es mayor o igual 
+      int g = 4;
+      int h = 4;
+      System.out.println(g >= h);
+
    }
 }
