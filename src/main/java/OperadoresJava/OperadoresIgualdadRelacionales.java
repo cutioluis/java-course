@@ -22,8 +22,7 @@ public class OperadoresIgualdadRelacionales {
       // Mira si es mayor que e y f, < verifica si es menor
       System.out.println("e es mayor que f: " + (e > f)); // true
 
-
-      // Verifica si es mayor o igual 
+      // Verifica si es mayor o igual
       int g = 4;
       int h = 4;
       System.out.println(g >= h);
