@@ -19,7 +19,10 @@ public class OperadoresCondicionales {
          System.out.println("Tienes que ir al trabajo");
       }
 
-      int rango = 5;
+
+      // El operador and solo devuelve true si los 2 son true
+      // Si uno de ellos es false va a deolver false
+      int rango = -5;
       int rangoMaximo = 30;
       int rangoMinimo = 0;
 
