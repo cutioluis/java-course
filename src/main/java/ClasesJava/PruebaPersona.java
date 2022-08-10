@@ -20,7 +20,7 @@ public class PruebaPersona {
       persona2.apellido = "Cutio";
       persona2.deployInformation();
    
-      // Referencia de memoria
+      // Referencia de memoria 
       System.out.println(persona1);      
       System.out.println(persona2);
 
