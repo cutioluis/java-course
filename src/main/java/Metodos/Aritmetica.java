@@ -21,7 +21,7 @@ public class Aritmetica {
       // a = a;
       // a = b;
       // Si no agregamos la palabra this estamos accedemos a los parametros de nuestro constructor
-      
+
       System.out.println("Ejecutando constructor con argumentos");
    }
 
