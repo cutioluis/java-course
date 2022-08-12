@@ -1,4 +1,4 @@
-package code;
+package restosjava;
 
 import java.util.Scanner;
 

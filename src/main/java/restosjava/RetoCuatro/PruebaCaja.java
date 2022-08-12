@@ -1,4 +1,4 @@
-package code.RetoCuatro;
+package restosjava.RetoCuatro;
 
 public class PruebaCaja {
    public static void main(String[] args) {
