@@ -1,6 +1,7 @@
 package herencia;
 
 public class Persona {
+   
    // La herencia en java es como la herencia de la vida real
    // Tus papas heredaron alguna caracteristicas de sus papas > tus papas te
    // heredaron... el color de tus ojos etc

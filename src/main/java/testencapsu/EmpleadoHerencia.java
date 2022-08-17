@@ -12,6 +12,7 @@ public class EmpleadoHerencia extends Persona {
 
    public EmpleadoHerencia(String nombre, double sueldo) {
       super(nombre);
+
       this.idEmpleado = EmpleadoHerencia.contadorEmpleado++;
       this.sueldo = sueldo;
    }
@@ -23,6 +24,7 @@ public class EmpleadoHerencia extends Persona {
 
    public double getSueldo() {
       return this.sueldo;
+
    }
 
    public void setSueldo(double sueldo) {
@@ -31,7 +33,8 @@ public class EmpleadoHerencia extends Persona {
 
    @Override
    public String toString() {
-      return "EmpleadoHerencia [idEmpleado=" + this.idEmpleado + ", nombre: " + this.nombre + ", sueldo=" + this.sueldo + "]";
+      return "EmpleadoHerencia [idEmpleado=" + this.idEmpleado + ", nombre: " + this.nombre + ", sueldo=" + this.sueldo
+            + "]";
    }
 
 }
