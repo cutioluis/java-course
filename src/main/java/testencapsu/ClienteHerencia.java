@@ -1,8 +1,6 @@
 package testencapsu;
 
 import java.time.LocalDate;
-import java.util.Date;
-
 import herencia.Persona;
 
 public class ClienteHerencia extends Persona {
@@ -16,15 +14,14 @@ public class ClienteHerencia extends Persona {
    /* Constructor */
    public ClienteHerencia() {
       System.out.println("Constructor vacio");
-      
+
    }
 
-
-   public ClienteHerencia(String name, boolean vip, LocalDate fechaEntrada) {
-      super(name);
+   public ClienteHerencia(String name, String direccion, char genero, int edad, boolean vip, LocalDate fechaEntrada) {
+      super(name, genero, edad, direccion);
+      this.fechaEntrada = fechaEntrada;
       this.id = ClienteHerencia.contadorCliente++;
       this.vip = vip;
-      this.fechaEntrada = fechaEntrada;
    }
 
    /* Metodos */
@@ -63,7 +60,8 @@ public class ClienteHerencia extends Persona {
 
    @Override
    public String toString() {
-      return "ClienteHerencia [fechaEntrada=" + fechaEntrada + ", id=" + id + ", vip=" + vip + "]";
+      return "ClienteHerencia [fechaEntrada=" + fechaEntrada + ", id=" + id + ", vip=" + vip + ", " + super.toString()
+            + "]";
    }
 
 }

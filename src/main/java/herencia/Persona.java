@@ -65,8 +65,9 @@ public class Persona {
    }
 
    // Modificado
+   // Con la palabra super accedemos a los valores antes de usar el toString modificado
    @Override
    public String toString() {
-      return "Persona [direccion=" + direccion + ", edad=" + edad + ", genero=" + genero + ", nombre=" + nombre + "]";
+      return "Persona [direccion=" + direccion + ", edad=" + edad + ", genero=" + genero + ", nombre=" + nombre + ", " + super.toString() + "]";
    }
 }
