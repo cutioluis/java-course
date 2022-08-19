@@ -18,7 +18,8 @@ public class HelloWorld {
         System.out.println(empleado1.getEdad());
 
         /* Cliente Herencia */
-        ClienteHerencia cliente = new ClienteHerencia("Luis", "Quito-Ecuador", 'M', 18, true, LocalDate.now());
+        LocalDate fechaEntrada = LocalDate.now();
+        ClienteHerencia cliente = new ClienteHerencia("Luis", "Quito-Ecuador", 'M', 18, true, fechaEntrada);
         System.out.println(cliente);
     }
 }
