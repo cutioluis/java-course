@@ -40,5 +40,6 @@ public class ArrayCreacion {
          System.out.println("frutas: " + i + ", " + frutas[i]);
       }
 
+
    }
 }
