@@ -1,9 +1,6 @@
 # Curso de Java
-- Java Basico 
-- POO
-- JDBC
-- JavaEE
-- Web Services
-- PrimeFaces
-- Hibernate 
-- Spring 
+
+### **Diagramas UML**
+
+Introduccion a diagraas UML
+["https://diagramasuml.com/diagrama-de-clases/]

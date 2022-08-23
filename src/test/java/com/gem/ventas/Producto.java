@@ -13,11 +13,12 @@ public class Producto {
    // nombre producto
    public String nameProducto;
 
+   // descripcion de producto
+
    // precio producto
    public double priceProducto;
 
    // * Constructores
-
    public Producto() {
       System.out.println("Este constructor es el vacio");
    }
@@ -29,7 +30,6 @@ public class Producto {
    }
 
    // * Getters and setters
-
 
    @Override
    public String toString() {
