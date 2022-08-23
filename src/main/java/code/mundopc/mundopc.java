@@ -1,5 +1,6 @@
 package code.mundopc;
 
+import code.com.gm.mundopc.Computadora;
 import code.com.gm.mundopc.DipositivosEntrada;
 import code.com.gm.mundopc.Monitor;
 import code.com.gm.mundopc.Mouse;
@@ -27,10 +28,15 @@ public class mundopc {
 
       Monitor monitor = new Monitor("Quasad", 144);
       System.out.println(monitor);
-   
+
       Monitor monitor1 = new Monitor("Quasad", 144);
       System.out.println(monitor1);
-   
+
+      System.out.println("-------------------------------------------------------------------");
+
+      // Computadora
+      Computadora pc = new Computadora("PC Ryzen 7 3090", monitor, teclado, mouse);
+      System.out.println(pc);
 
    }
 }

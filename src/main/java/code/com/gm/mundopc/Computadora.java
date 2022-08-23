@@ -64,6 +64,10 @@ public class Computadora {
       this.mouse = mouse;
    }
 
-   
+   @Override
+   public String toString() {
+      return "Computadora [idComputer=" + idComputer + ", monitor=" + monitor + ", mouse=" + mouse + ", nombre="
+            + nombre + ", teclado=" + teclado + "]";
+   }
 
 }
