@@ -5,8 +5,6 @@ public class Teclado extends DipositivosEntrada {
    private static int counterTeclado;
 
    public Teclado(String marca) {
-
-   // ! recibe un constructor ???
       super();
       this.idTeclado = Teclado.counterTeclado++;
    }

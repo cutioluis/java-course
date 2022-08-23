@@ -1,6 +1,7 @@
 package code.mundopc;
 
 import code.com.gm.mundopc.DipositivosEntrada;
+import code.com.gm.mundopc.Monitor;
 import code.com.gm.mundopc.Mouse;
 import code.com.gm.mundopc.Teclado;
 
@@ -22,7 +23,14 @@ public class mundopc {
       System.out.println(teclado1);
 
       Mouse mouse = new Mouse("Mouse ", "USB", "red", 12);
-      System.out.println(mouse); 
+      System.out.println(mouse);
+
+      Monitor monitor = new Monitor("Quasad", 144);
+      System.out.println(monitor);
+   
+      Monitor monitor1 = new Monitor("Quasad", 144);
+      System.out.println(monitor1);
+   
 
    }
 }

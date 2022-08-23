@@ -7,8 +7,6 @@ public class Mouse extends DipositivosEntrada {
    private double precio;
 
    public Mouse(String marca, String tipoDeEntrada, String color, double precio) {
-
-      // ! recibe un constructor ???
       super(marca, tipoDeEntrada);
       this.color = color;
       this.precio = precio;
