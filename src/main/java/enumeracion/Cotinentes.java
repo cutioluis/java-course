@@ -11,7 +11,7 @@ public enum Cotinentes {
       this.users = users;
    }
 
-   public double getUsers(double users) {
+   public double getUsers() {
       return this.users;
    }
 }
