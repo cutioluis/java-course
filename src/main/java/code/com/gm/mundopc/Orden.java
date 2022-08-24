@@ -3,6 +3,7 @@ package code.com.gm.mundopc;
 import java.util.Arrays;
 
 public class Orden {
+   
    private int idOrden;
    private Computadora computadoras[];
    private static int contadorOrdenes;
