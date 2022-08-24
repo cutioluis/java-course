@@ -1,4 +1,4 @@
-package ClasesJava;
+package clases;
 
 public class ClasePersona {
 

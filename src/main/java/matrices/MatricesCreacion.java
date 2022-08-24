@@ -1,4 +1,4 @@
-package matricesjava;
+package matrices;
 
 public class MatricesCreacion {
 

@@ -1,4 +1,4 @@
-package OperadoresJava;
+package operadores;
 
 public class OperadoresIgualdadRelacionales {
    public static void main(String[] args) {

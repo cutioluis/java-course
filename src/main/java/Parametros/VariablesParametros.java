@@ -1,4 +1,4 @@
-package Parametros;
+package parametros;
 
 public class VariablesParametros {
 

@@ -1,4 +1,4 @@
-package Metodos;
+package metodos;
 
 public class Aritmetica {
    // Atributos de nuestra clase

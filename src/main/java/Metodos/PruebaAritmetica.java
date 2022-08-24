@@ -1,4 +1,4 @@
-package Metodos;
+package metodos;
 
 public class PruebaAritmetica {
    public static void main(String[] args) {

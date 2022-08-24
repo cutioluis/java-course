@@ -1,4 +1,4 @@
-package OperadoresJava;
+package operadores;
 
 public class OperadoresCondicionales {
    public static void main(String[] args) {

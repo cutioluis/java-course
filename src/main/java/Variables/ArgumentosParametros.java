@@ -1,4 +1,4 @@
-package Variables;
+package variables;
 
 public class ArgumentosParametros {
    public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package OperadoresJava;
+package operadores;
 
 public class OperadoresAritmeticos {
    // Operatores aritmeticos: +, -, *, / =  los tipicos de la escuela
