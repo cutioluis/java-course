@@ -4,6 +4,7 @@ import code.com.gm.mundopc.Computadora;
 import code.com.gm.mundopc.DipositivosEntrada;
 import code.com.gm.mundopc.Monitor;
 import code.com.gm.mundopc.Mouse;
+import code.com.gm.mundopc.Orden;
 import code.com.gm.mundopc.Teclado;
 
 public class mundopc {
@@ -18,25 +19,33 @@ public class mundopc {
 
       // Teclado hereda desde dispositovoEntrada
       Teclado teclado = new Teclado("Keyboard Mechanic");
-      System.out.println(teclado);
 
-      Teclado teclado1 = new Teclado("Keyboard Mechanic");
-      System.out.println(teclado1);
+      Teclado teclado1 = new Teclado("Keyboard");
 
       Mouse mouse = new Mouse("Mouse ", "USB", "red", 12);
-      System.out.println(mouse);
+
+      Mouse mouse1 = new Mouse("Relogic ", "Inalambric", "Black", 89);
 
       Monitor monitor = new Monitor("Quasad", 144);
-      System.out.println(monitor);
 
-      Monitor monitor1 = new Monitor("Quasad", 144);
-      System.out.println(monitor1);
+      Monitor monitor1 = new Monitor("Relogic", 244);
 
       System.out.println("-------------------------------------------------------------------");
 
       // Computadora
       Computadora pc = new Computadora("PC Ryzen 7 3090", monitor, teclado, mouse);
-      System.out.println(pc);
+      Computadora pc1 = new Computadora("PC Nvidia 3080", monitor1, teclado1, mouse1);
 
+      // Orden
+      Orden newOrden = new Orden();
+      newOrden.agregarComputador(pc);
+      newOrden.mostrarOrden();
+
+      
+      System.out.println("-------------------------------------------------------------------");
+
+      Orden newOrden1 = new Orden();
+      newOrden1.agregarComputador(pc1);
+      newOrden1.mostrarOrden();
    }
 }
