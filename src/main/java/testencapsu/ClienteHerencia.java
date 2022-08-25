@@ -14,7 +14,6 @@ public class ClienteHerencia extends Persona {
    /* Constructor */
    public ClienteHerencia() {
       System.out.println("Constructor vacio");
-
    }
 
    public ClienteHerencia(String name, String direccion, char genero, int edad, boolean vip, LocalDate fechaEntrada) {
