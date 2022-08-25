@@ -22,6 +22,6 @@ public class InstanceOf {
       } else if (bloque instanceof Object) {
          System.out.println("Es de tipo Object");
       }
-
    }
+
 }

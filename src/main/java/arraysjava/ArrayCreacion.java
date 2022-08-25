@@ -39,7 +39,5 @@ public class ArrayCreacion {
       for (int i = 0; i < frutas.length; i++) {
          System.out.println("frutas: " + i + ", " + frutas[i]);
       }
-
-
    }
 }
