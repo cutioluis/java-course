@@ -7,6 +7,7 @@ public class JugadorPolimorfismo {
 
    // ! Cuando usaoms polimorfismo entra los conceptos
    // ! herencia > sobrescritura > polimorfismo
+
    public static void main(String[] args) {
       Persona persona = new Persona("Luis", 122);
       print(persona);
@@ -14,8 +15,8 @@ public class JugadorPolimorfismo {
       // como podemos ver esta variable tabien puede apuntar a la referencia hijo de
       // la clase padre
       persona = new Jugador("Luis", 200, 172431321);
-
       print(persona);
+      
    }
 
    // * Basicamente con un mismo tipo podemos ejecutar diferentes metodos de la

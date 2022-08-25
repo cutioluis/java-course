@@ -11,5 +11,5 @@ public class Jugador extends Persona {
    @Override
    public String obtenerDetalles() {
       return super.obtenerDetalles() + " Cedula: " + this.cedula;
-   }
+   } 
 }
