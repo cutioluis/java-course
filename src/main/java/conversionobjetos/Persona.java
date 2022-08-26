@@ -5,9 +5,17 @@ public class Persona {
    private String nombre;
    private int numero;
 
+   public Persona() {
+      System.out.println("Constructor Personas");
+   }
+
    public Persona(String nombre, int numero) {
       this.nombre = nombre;
       this.numero = numero;
+   }
+
+   public String obtenerDetalles() {
+      return "Nombre" + nombre + ", " + "Numero:" + numero;
    }
 
    public String getNombre() {
@@ -26,4 +34,9 @@ public class Persona {
       this.numero = numero;
    }
 
+   @Override
+   public String toString() {
+      return "Persona [nombre=" + nombre + ", numero=" + numero + "]";
+   }
+   
 }
