@@ -3,6 +3,9 @@ package clasesabastractas;
 
 
 // Aqui teneoms que definir que esto va a ser una clase //* ABSTRACTA */
+// * Algo de las clases abstractas es que no se pueden crear like new FiguraGeometrica();
+// * Tambien sirve para no que vas a crear estas clases como cerrarlas
+
 public abstract class FiguraGeometrica {
    protected String tipoFigura;
 
