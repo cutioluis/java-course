@@ -8,7 +8,7 @@ package error;
 /*
  ? Pero si necesitas hacer controlar la exception mas a profundidad usa Exception
  */
-public class OperacionExcepcion extends RuntimeException {
+public class OperacionExcepcion extends Exception {
    public OperacionExcepcion(String mensaje) {
       super(mensaje);
    }
