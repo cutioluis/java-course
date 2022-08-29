@@ -3,6 +3,7 @@ package clasesabastractas;
 
 
 // Aqui teneoms que definir que esto va a ser una clase //* ABSTRACTA */
+// ! La clase abstract siempre tiene que ser heredada
 // * Algo de las clases abstractas es que no se pueden crear like new FiguraGeometrica();
 // * Tambien sirve para no que vas a crear estas clases como cerrarlas
 
@@ -16,6 +17,7 @@ public abstract class FiguraGeometrica {
    // Aqui vamos a agregar nuestro metodos abstract que no sabes que realmente van a hacer
    // No necesitamos agregar ninguna implementacion
    // No sabemos que va a dibujar y vamos a saber crearndo una clase hija
+   
    public abstract void paint();
    
    public String getTipoFigura() {
