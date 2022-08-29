@@ -6,10 +6,15 @@ public class Division {
       int resultado = 0;
 
       try {
-         resultado = 10 / 0;
+         resultado = Aritmetica.division(10, 0);
       } catch (Exception e) {
          System.out.println("A OCURRIDO UN ERROR");
-         e.printStackTrace(System.out); // ! Va imprimir la pila de excepciones que tengamos ya que una excepcion pued ocasionar otra
+         /*
+          * !Va imprimir la pila de excepciones que tengamos ya que una excepcion pued
+          * ocasionar otra
+          */
+         e.printStackTrace(System.out);
+         e.getMessage();
       }
       System.out.println(resultado);
    }
