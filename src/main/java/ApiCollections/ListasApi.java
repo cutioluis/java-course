@@ -9,7 +9,7 @@ public class ListasApi {
        * Las listas son casi iguales que los Arrays sollo que las listas no tenemos
        * que definir su largo
        */
-      List listas = new ArrayList();
+      List<String> listas = new ArrayList<>();
       listas.add("Ecuador");
       listas.add("Peru");
       listas.add("Venezuela");
